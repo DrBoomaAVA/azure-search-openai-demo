@@ -1,6 +1,6 @@
 {
-    "pageTitle": "Azure OpenAI + AI Search",
-    "headerTitle": "Azure OpenAI + AI Search",
+    "pageTitle": "Finance Advisor Chat",
+    "headerTitle": "Finance Advisor Chat",
     "chat": "Chat",
     "qa": "Ask a question",
     "login": "Login",
@@ -33,19 +33,40 @@
         "fileDeleted": "File deleted"
     },
     "developerSettings": "Developer settings",
-
-    "chatEmptyStateTitle": "Chat with your data",
-    "chatEmptyStateSubtitle": "Ask anything or try an example",
-    "defaultExamples": {
-        "1": "What should I do if my credit card is lost or stolen?",
-        "2": "What if I fully settle the loan before its maturity?",
-        "3": "How can I check my credit card statement?",
-        "placeholder": "Type a new question (e.g. What types of credit cards does Bank offer?)"
+    
+    "chatEmptyStateTitle": "Ask Your Finance Assistant",
+    "chatEmptyStateSubtitle": "Ask anything or select a category below",
+    
+    "categories": {
+        "loanAdvisory": {
+            "title": "Loan Advisory",
+            "examples": {
+                "1": "What should I do if my credit card is lost or stolen?",
+                "2": "What if I fully settle the loan before its maturity?",
+                "3": "Can you explain different types of loans available?"
+            }
+        },
+        "taxAdvisory": {
+            "title": "Tax Advisory",
+            "examples": {
+                "1": "How can I maximize my tax deductions?",
+                "2": "What documents do I need for tax filing?",
+                "3": "How does property tax work?"
+            }
+        }
     },
+    
+    "defaultExamples": {
+        "1": "What types of credit cards does Bank offer?",
+        "2": "What are the current interest rates on savings accounts?",
+        "3": "What are the tax implications of early withdrawals?",
+        "placeholder": "Type a new question"
+    },
+
     "askTitle": "Ask your data",
     "gpt4vExamples": {
         "1": "Compare the impact of interest rates and GDP in financial markets.",
-        "2": "What is the expected trend for the S&P 500 index over the next five years? Compare it to the past S&P 500 performance",
+        "2": "What is the expected trend for the S&P 500 index over the next five years?",
         "3": "Can you identify any correlation between oil prices and stock market trends?",
         "placeholder": "Example: Does my plan cover annual eye exams?"
     },
